@@ -3,6 +3,6 @@ FROM httpd:latest
 
  
 # copying the online book store target war package from the target to 
-COPY ./onlinebookstore/*  /usr/local/apache2/htdocs
+COPY ./onlinebookstore-master/*  /usr/local/apache2/htdocs
 
 EXPOSE 90
